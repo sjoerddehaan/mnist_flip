@@ -1,0 +1,7 @@
+PORTS = -p 8888:8888 -p 6006:6006
+
+ROOT = $(shell pwd)
+VOLUMES = -v $(ROOT):/home/jovyan
+
+ENV = \
+  -e SOME_KEY=SOME_VALUE
