@@ -4,7 +4,9 @@ USER jovyan
 RUN conda install -y pytorch-cpu=0.4.0 \
    torchvision-cpu=0.2.1 \
    -c pytorch
-RUN pip install jupyter_contrib_nbextensions && \
-  jupyter nbextension enable toc2/main && \
+USER root
+ RUN pip install jupyter_contrib_nbextensions && \
+  jupyter contrib nbextension install && \
   jupyter nbextension enable spellchecker/main
+USER jovyan
 run git clone https://github.com/sjoerddehaan/mnist_flip
