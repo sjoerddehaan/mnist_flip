@@ -2,7 +2,7 @@
 ## In the notebook, run %run flipper.py
 
 import sys
-sys.path.append("../flipper/")
+sys.path.append("../")
 from flipper.transform import PinballFlip, duplicate_channels, plot_random_flips
 from torchvision import transforms
 import torchvision
