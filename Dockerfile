@@ -9,4 +9,5 @@ USER root
   jupyter contrib nbextension install && \
   jupyter nbextension enable spellchecker/main
 USER jovyan
+RUN conda install -y tqdm=4.23.4
 run git clone https://github.com/sjoerddehaan/mnist_flip

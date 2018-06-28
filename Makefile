@@ -9,7 +9,7 @@ TOSLIDE = docker exec -it  $(NAME)-$(INSTANCE) jupyter nbconvert --to slides $(R
 
 
 run:
-	docker run -it --rm --name $(NAME)-$(INSTANCE) $(PORTS) $(VOLUMES) $(ENV) $(NS)/$(REPO):$(VERSION) 
+	docker run -it --rm --ipc=host --name $(NAME)-$(INSTANCE) $(PORTS) $(VOLUMES) $(ENV) $(NS)/$(REPO):$(VERSION) 
 
 bash:
 	docker exec -it $(NAME)-$(INSTANCE) /bin/bash

@@ -3,7 +3,7 @@
 
 import sys
 sys.path.append("../")
-from flipper.transform import PinballFlip, duplicate_channels, plot_random_flips
+from flipper.data import PinballFlip, duplicate_channels, plot_random_flips
 from torchvision import transforms
 import torchvision
 import torch
@@ -43,6 +43,8 @@ image_datasets = {'train': trainset,
 dataloaders = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=4,
                                              shuffle=True, num_workers=4)
               for x in ['train', 'val']}
+
+
 dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'val']}
 class_names = ('Flipped', 'Original')
 
