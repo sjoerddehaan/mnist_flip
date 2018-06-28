@@ -9,7 +9,7 @@ Summary: Lot of work required for training a poor classifier (accuracy around 90
 
 See [the notebook](https://github.com/sjoerddehaan/mnist_flip/tree/master/notebooks/flipper-torch.ipynb)  
 
-Launch the project on [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sjoerddehaan/mnist_flip/master?filepath=mnist_flip%2Fnotebooks%2Fflipper-torch.ipynb)
+Launch the notebook on [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sjoerddehaan/mnist_flip/master?filepath=mnist_flip%2Fnotebooks%2Fflipper-torch.ipynb)
 
 
 
@@ -19,7 +19,7 @@ Summary: Easy to do, way better result (accuracy around 96%)
 See [the notebook](https://github.com/sjoerddehaan/mnist_flip/tree/master/notebooks/flipper-fastai.ipynb)  
 
 
-Launch the project on [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sjoerddehaan/mnist_flip/master?filepath=mnist_flip%2Fnotebooks%2Fflipper-fastai.ipynb)
+Launch the notebook on [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sjoerddehaan/mnist_flip/master?filepath=mnist_flip%2Fnotebooks%2Fflipper-fastai.ipynb)
 
 
 
